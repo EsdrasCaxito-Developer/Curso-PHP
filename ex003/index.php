@@ -25,9 +25,20 @@
     // $n = (float) "950";
     // var_dump($n);
 
-    $casado = true;
-    //var_dump($casado);
-    print("O valor para casado é $casado");
+    // $casado = true;
+    // var_dump($casado);
+    // print("O valor para casado é $casado");
+
+    // $vet = [2.5, "Maria", 3, false];
+    // var_dump($vet);
+
+    // class Pessoa
+    // {
+    //     protected string $nome;
+    // }
+
+    // $p = new Pessoa();
+    // var_dump($p);
     ?>
 </body>
 
