@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação com formulários</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Apresente-se para nós</h1>
+    </header>
+    <section>
+        <form action="cad.php" method="get">
+            <label for="idnome">
+                <span>Nome:</span>
+                <input type="text" id="idnome" name="nome">
+            </label>
+            <label for="idsobrenome">
+                <span>Sobrenome:</span>
+                <input type="text" id="idsobrenome" name="sobrenome">
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
